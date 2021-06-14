@@ -1,21 +1,21 @@
 
 public class Circle {
-    // Las constantes públicas
+    // Las constantes estáticas y públicas
     public static final double DEFAULT_RADIUS = 1.0;
     public static final String DEFAULT_COLOR = "rojo";
 
-    // Ls variables privadas
+    // Las variables privadas
     private double radius;
     private String color;
 
     /** Se crea un círculo con un radio y color por defecto */
-    public Circle() {
+    public Circle() {// 1r Constructor
         this.radius = DEFAULT_RADIUS;
         this.color = DEFAULT_COLOR;
     }
 
     /** Constructor par aun círculo que recibe un radio y el color por defecto */
-    public Circle(double radius) {
+    public Circle(double radius) {// 2do Constructor
         this.radius = radius;
         this.color = DEFAULT_COLOR;
     }

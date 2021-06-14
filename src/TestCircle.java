@@ -16,6 +16,8 @@ public class TestCircle {
         //Se envía un nuevo color para c1
         c1.setColor("verde");
         System.out.println(c1);
+
+        
         //Obtenemos el radio de c1
         System.out.println("El radio es: " + c1.getRadius());
         //Obtenemos el color de c1
